@@ -73,7 +73,7 @@ public class MainTest {
         int jogador2Acao2 = 1;
 
         int rodada1 = Jokenpo.jogar(jogador1Acao1, jogador2Acao1);
-        int rodada2 = Jokenpo.jogar(jogador1Acao1, jogador2Acao1);
+        int rodada2 = Jokenpo.jogar(jogador1Acao2, jogador2Acao2);
 
         assertEquals(2, rodada1);
         assertEquals(2, rodada2);
